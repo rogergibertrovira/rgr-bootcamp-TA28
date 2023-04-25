@@ -1,0 +1,15 @@
+body {
+  background-color: #7F6B90;
+}
+
+h1 {
+  font-family: "Monotype Corsiva";
+  color: whitesmoke;
+  font-size: xx-large;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  color: whitesmoke;
+  font-size: large;
+}
