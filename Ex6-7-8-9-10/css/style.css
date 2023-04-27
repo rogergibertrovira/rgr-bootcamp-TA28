@@ -1,0 +1,103 @@
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#color-box li {
+  list-style-type: none;
+}
+
+#color-box button {
+  border-radius: 5px;
+  font-weight: bold;
+  color: #323232;
+  border: none;
+  width: 150px;
+  height: 45px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 90%;
+  text-align: center;
+  display: block;
+  background-image: url("../img/button.png");
+  background-repeat: repeat-x;
+  background-position: bottom left;
+}
+
+#color-box button:hover {
+  background-color: #5f8f11;
+  color: wheat;
+  background-image: url("../img/button_hover.png");
+  background-repeat: repeat-x;
+  background-position: bottom left;
+}
+
+#color-box button.activo {
+  background-color: #bf823b;
+  background-image: url("../img/button_active.png");
+  background-repeat: repeat-x;
+  background-position: bottom left;
+}
+
+html {
+  background-color: gainsboro;
+}
+
+body {
+  border-radius: 15px;
+  width: 900px;
+  background-color: white;
+  padding: 40px;
+  padding-bottom: 5px;
+  font-family: "Lucida Sans Unicode";
+  margin: 10px auto;
+  text-align: justify;
+}
+
+h1 {
+  background-image: url("../img/background.png");
+  background-size: 900px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 170px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #5f8f11;
+  text-align: center;
+  font-size: 3em;
+}
+
+h1 span {
+  color: #bf823b;
+}
+
+h2 {
+  color: #70af0a;
+}
+
+h3 {
+  color: #bf823b;
+}
+
+hr {
+  margin-top: -20px;
+}
+
+.autor {
+  text-align: center;
+  color: darkgray;
+  font-size: 0.8em;
+}
